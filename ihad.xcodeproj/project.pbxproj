@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110474EF2118DF53007B8BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110474EE2118DF53007B8BB5 /* AppDelegate.swift */; };
+		110474F12118DF53007B8BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110474F02118DF53007B8BB5 /* ViewController.swift */; };
+		110474F42118DF53007B8BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110474F22118DF53007B8BB5 /* Main.storyboard */; };
+		110474F72118DF53007B8BB5 /* ihad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 110474F52118DF53007B8BB5 /* ihad.xcdatamodeld */; };
+		110474F92118DF54007B8BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110474F82118DF54007B8BB5 /* Assets.xcassets */; };
+		110474FC2118DF54007B8BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110474FA2118DF54007B8BB5 /* LaunchScreen.storyboard */; };
+		110475072118DF54007B8BB5 /* ihadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110475062118DF54007B8BB5 /* ihadTests.swift */; };
+		110475122118DF54007B8BB5 /* ihadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110475112118DF54007B8BB5 /* ihadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110475032118DF54007B8BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110474E32118DF52007B8BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110474EA2118DF52007B8BB5;
+			remoteInfo = ihad;
+		};
+		1104750E2118DF54007B8BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110474E32118DF52007B8BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110474EA2118DF52007B8BB5;
+			remoteInfo = ihad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110474EB2118DF52007B8BB5 /* ihad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ihad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110474EE2118DF53007B8BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		110474F02118DF53007B8BB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110474F32118DF53007B8BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110474F62118DF53007B8BB5 /* ihad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ihad.xcdatamodel; sourceTree = "<group>"; };
+		110474F82118DF54007B8BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110474FB2118DF54007B8BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110474FD2118DF54007B8BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110475022118DF54007B8BB5 /* ihadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ihadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110475062118DF54007B8BB5 /* ihadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ihadTests.swift; sourceTree = "<group>"; };
+		110475082118DF54007B8BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1104750D2118DF54007B8BB5 /* ihadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ihadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110475112118DF54007B8BB5 /* ihadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ihadUITests.swift; sourceTree = "<group>"; };
+		110475132118DF54007B8BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110474E82118DF52007B8BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110474FF2118DF54007B8BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1104750A2118DF54007B8BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110474E22118DF52007B8BB5 = {
+			isa = PBXGroup;
+			children = (
+				110474ED2118DF52007B8BB5 /* ihad */,
+				110475052118DF54007B8BB5 /* ihadTests */,
+				110475102118DF54007B8BB5 /* ihadUITests */,
+				110474EC2118DF52007B8BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110474EC2118DF52007B8BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110474EB2118DF52007B8BB5 /* ihad.app */,
+				110475022118DF54007B8BB5 /* ihadTests.xctest */,
+				1104750D2118DF54007B8BB5 /* ihadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110474ED2118DF52007B8BB5 /* ihad */ = {
+			isa = PBXGroup;
+			children = (
+				110474EE2118DF53007B8BB5 /* AppDelegate.swift */,
+				110474F02118DF53007B8BB5 /* ViewController.swift */,
+				110474F22118DF53007B8BB5 /* Main.storyboard */,
+				110474F82118DF54007B8BB5 /* Assets.xcassets */,
+				110474FA2118DF54007B8BB5 /* LaunchScreen.storyboard */,
+				110474FD2118DF54007B8BB5 /* Info.plist */,
+				110474F52118DF53007B8BB5 /* ihad.xcdatamodeld */,
+			);
+			path = ihad;
+			sourceTree = "<group>";
+		};
+		110475052118DF54007B8BB5 /* ihadTests */ = {
+			isa = PBXGroup;
+			children = (
+				110475062118DF54007B8BB5 /* ihadTests.swift */,
+				110475082118DF54007B8BB5 /* Info.plist */,
+			);
+			path = ihadTests;
+			sourceTree = "<group>";
+		};
+		110475102118DF54007B8BB5 /* ihadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110475112118DF54007B8BB5 /* ihadUITests.swift */,
+				110475132118DF54007B8BB5 /* Info.plist */,
+			);
+			path = ihadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110474EA2118DF52007B8BB5 /* ihad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110475162118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihad" */;
+			buildPhases = (
+				110474E72118DF52007B8BB5 /* Sources */,
+				110474E82118DF52007B8BB5 /* Frameworks */,
+				110474E92118DF52007B8BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ihad;
+			productName = ihad;
+			productReference = 110474EB2118DF52007B8BB5 /* ihad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110475012118DF54007B8BB5 /* ihadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110475192118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihadTests" */;
+			buildPhases = (
+				110474FE2118DF54007B8BB5 /* Sources */,
+				110474FF2118DF54007B8BB5 /* Frameworks */,
+				110475002118DF54007B8BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110475042118DF54007B8BB5 /* PBXTargetDependency */,
+			);
+			name = ihadTests;
+			productName = ihadTests;
+			productReference = 110475022118DF54007B8BB5 /* ihadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1104750C2118DF54007B8BB5 /* ihadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1104751C2118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihadUITests" */;
+			buildPhases = (
+				110475092118DF54007B8BB5 /* Sources */,
+				1104750A2118DF54007B8BB5 /* Frameworks */,
+				1104750B2118DF54007B8BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1104750F2118DF54007B8BB5 /* PBXTargetDependency */,
+			);
+			name = ihadUITests;
+			productName = ihadUITests;
+			productReference = 1104750D2118DF54007B8BB5 /* ihadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110474E32118DF52007B8BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = devORalive;
+				TargetAttributes = {
+					110474EA2118DF52007B8BB5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					110475012118DF54007B8BB5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 110474EA2118DF52007B8BB5;
+					};
+					1104750C2118DF54007B8BB5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 110474EA2118DF52007B8BB5;
+					};
+				};
+			};
+			buildConfigurationList = 110474E62118DF52007B8BB5 /* Build configuration list for PBXProject "ihad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110474E22118DF52007B8BB5;
+			productRefGroup = 110474EC2118DF52007B8BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110474EA2118DF52007B8BB5 /* ihad */,
+				110475012118DF54007B8BB5 /* ihadTests */,
+				1104750C2118DF54007B8BB5 /* ihadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110474E92118DF52007B8BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110474FC2118DF54007B8BB5 /* LaunchScreen.storyboard in Resources */,
+				110474F92118DF54007B8BB5 /* Assets.xcassets in Resources */,
+				110474F42118DF53007B8BB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110475002118DF54007B8BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1104750B2118DF54007B8BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110474E72118DF52007B8BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110474F12118DF53007B8BB5 /* ViewController.swift in Sources */,
+				110474F72118DF53007B8BB5 /* ihad.xcdatamodeld in Sources */,
+				110474EF2118DF53007B8BB5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110474FE2118DF54007B8BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110475072118DF54007B8BB5 /* ihadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110475092118DF54007B8BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110475122118DF54007B8BB5 /* ihadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110475042118DF54007B8BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110474EA2118DF52007B8BB5 /* ihad */;
+			targetProxy = 110475032118DF54007B8BB5 /* PBXContainerItemProxy */;
+		};
+		1104750F2118DF54007B8BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110474EA2118DF52007B8BB5 /* ihad */;
+			targetProxy = 1104750E2118DF54007B8BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110474F22118DF53007B8BB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110474F32118DF53007B8BB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110474FA2118DF54007B8BB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110474FB2118DF54007B8BB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110475142118DF54007B8BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		110475152118DF54007B8BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110475172118DF54007B8BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110475182118DF54007B8BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1104751A2118DF54007B8BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ihad.app/ihad";
+			};
+			name = Debug;
+		};
+		1104751B2118DF54007B8BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ihad.app/ihad";
+			};
+			name = Release;
+		};
+		1104751D2118DF54007B8BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ihad;
+			};
+			name = Debug;
+		};
+		1104751E2118DF54007B8BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DXDGL5HY4U;
+				INFOPLIST_FILE = ihadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devoralive.ihadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ihad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110474E62118DF52007B8BB5 /* Build configuration list for PBXProject "ihad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110475142118DF54007B8BB5 /* Debug */,
+				110475152118DF54007B8BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110475162118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110475172118DF54007B8BB5 /* Debug */,
+				110475182118DF54007B8BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110475192118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1104751A2118DF54007B8BB5 /* Debug */,
+				1104751B2118DF54007B8BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1104751C2118DF54007B8BB5 /* Build configuration list for PBXNativeTarget "ihadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1104751D2118DF54007B8BB5 /* Debug */,
+				1104751E2118DF54007B8BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		110474F52118DF53007B8BB5 /* ihad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				110474F62118DF53007B8BB5 /* ihad.xcdatamodel */,
+			);
+			currentVersion = 110474F62118DF53007B8BB5 /* ihad.xcdatamodel */;
+			path = ihad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 110474E32118DF52007B8BB5 /* Project object */;
+}
